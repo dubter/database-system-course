@@ -13,7 +13,6 @@ brew install kubectl
 brew install helm
 brew tap redis-stack/redis-stack
 brew install redis-stack
-brew install redis-developer/tap/riot
 ```
 
 2) Создаем кластер для Redis
