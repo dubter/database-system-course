@@ -1,0 +1,76 @@
+ PING_INLINE: rps=0.0 (overall: nan) avg_msec=nan (overall: nan)
+                                                                
+====== PING_INLINE ======
+  100 requests completed in 0.09 seconds
+ 
+====== PING_MBULK ======
+  100 requests completed in 0.09 seconds
+ 
+====== SET ======
+  100 requests completed in 0.06 seconds
+ 
+GET: rps=0.0 (overall: 0.0) avg_msec=nan (overall: nan)
+                                                        
+====== GET ======
+  100 requests completed in 0.06 seconds
+ 
+====== INCR ======
+  100 requests completed in 0.06 seconds
+ 
+====== LPUSH ======
+  100 requests completed in 0.05 seconds
+ 
+====== RPUSH ======
+  100 requests completed in 0.05 seconds
+ 
+LPOP: rps=0.0 (overall: 0.0) avg_msec=nan (overall: nan)
+                                                         
+====== LPOP ======
+  100 requests completed in 0.11 seconds
+ 
+====== RPOP ======
+  100 requests completed in 0.10 seconds
+ 
+====== SADD ======
+  100 requests completed in 0.05 seconds
+ 
+HSET: rps=0.0 (overall: 0.0) avg_msec=nan (overall: nan)
+                                                         
+====== HSET ======
+  100 requests completed in 0.08 seconds
+ 
+====== SPOP ======
+  100 requests completed in 0.05 seconds
+ 
+====== ZADD ======
+  100 requests completed in 0.06 seconds
+ 
+ZPOPMIN: rps=143.4 (overall: 521.7) avg_msec=56.983 (overall: 56.983)
+                                                                      
+====== ZPOPMIN ======
+  100 requests completed in 0.08 seconds
+ 
+====== LPUSH (needed to benchmark LRANGE) ======
+  100 requests completed in 0.05 seconds
+ 
+====== LRANGE_100 (first 100 elements) ======
+  100 requests completed in 0.10 seconds
+ 
+====== LRANGE_300 (first 300 elements) ======
+  100 requests completed in 0.06 seconds
+ 
+LRANGE_500 (first 500 elements): rps=0.0 (overall: 0.0) avg_msec=nan (overall: nan)
+                                                                                    
+====== LRANGE_500 (first 500 elements) ======
+  100 requests completed in 0.10 seconds
+ 
+LRANGE_600 (first 600 elements): rps=348.0 (overall: 530.5) avg_msec=71.895 (overall: 71.895)
+                                                                                              
+====== LRANGE_600 (first 600 elements) ======
+  100 requests completed in 0.17 seconds
+ 
+====== MSET (10 keys) ======
+  100 requests completed in 0.11 seconds
+ 
+====== XADD ======
+  100 requests completed in 0.05 seconds
