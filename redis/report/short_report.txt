@@ -1,5 +1,3 @@
- PING_INLINE: rps=0.0 (overall: nan) avg_msec=nan (overall: nan)
-                                                                
 ====== PING_INLINE ======
   100 requests completed in 0.09 seconds
  
