@@ -61,7 +61,7 @@ kubectl port-forward service/redis-cluster --address 0.0.0.0 6379:6379 &
 А именно string, hset, zset, list. Исходник - в папке `importer`.
 
 `
-JSON_PATH=<путь до файла generated.json> go run importer/main.go # Если выдано ошибку аутентификации, то выполните фаг (6) еще раз
+JSON_PATH=<путь до файла generated.json> go run importer/main.go # Если выдало ошибку аутентификации, то выполните шаг (6) еще раз
 `
 
 После чего ждём примерно 5 минут пока данные загрузятся. Всего данных 19Mb * 4 структуры данных = 76Mb
